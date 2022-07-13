@@ -20,6 +20,7 @@ function newTask() {
     item.appendChild(span);
 
     document.querySelector('ul').appendChild(item);
+    document.getElementById("txtTask").value = "";
 }
 
 function handleTask() {
